@@ -1,0 +1,13 @@
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+for (let v = 0; v < numbers.length; v++)
+    console.log(numbers[v])
+numbers.shift()
+console.log(numbers)
+numbers.unshift(1)
+console.log(numbers)
+numbers.pop()
+console.log(numbers)
+numbers.push(9)
+console.log(numbers)
+numbers.splice(1, 2, 9)
+console.log(numbers)
